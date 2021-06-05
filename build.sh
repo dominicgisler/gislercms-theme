@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm gcms-default.zip
+rm gcms-default-theme.zip
 rm -rf dist
 mkdir dist
 cp -R * dist/.
@@ -10,6 +10,6 @@ rm -rf dist/dist
 
 (
   cd dist
-  zip -r ../gcms-default.zip *
+  zip -r ../gcms-default-theme.zip *
 )
 rm -rf dist
