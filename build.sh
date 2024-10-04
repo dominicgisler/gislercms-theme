@@ -12,15 +12,15 @@ cp -R * dist/.
   (
     cd assets/css
     sass style.scss style.css
-    uglifycss style.css --output style.min.css
+    minify --type=css style.css -o style.min.css
     sass maintenance.scss maintenance.css
-    uglifycss maintenance.css --output maintenance.min.css
+    minify --type=css maintenance.css -o maintenance.min.css
+    rm -rf .sass-cache
   )
 
   # copy js assets
-  cp -r vendor/fortawesome/font-awesome/webfonts assets/.
-  cp -r vendor/twbs/bootstrap/dist/js/* assets/js/.
-  cp -r vendor/components/jquery/*.js assets/js/.
+  cp -r vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js assets/js/.
+  cp -r vendor/components/jquery/jquery.min.js assets/js/.
 
   # remove unneeded stuff
   rm build.sh

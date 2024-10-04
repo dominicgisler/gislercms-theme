@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7719832c3e00760a723ae1a83d93e830",
+    "content-hash": "6377d1a17faa57a382d2d9819f1314db",
     "packages": [
         {
             "name": "components/jquery",
-            "version": "3.5.1",
+            "version": "v3.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/jquery.git",
-                "reference": "b33e8f0f9a1cb2ae390cf05d766a900b53d2125b"
+                "reference": "8edc7785239bb8c2ad2b83302b856a1d61de60e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/components/jquery/zipball/b33e8f0f9a1cb2ae390cf05d766a900b53d2125b",
-                "reference": "b33e8f0f9a1cb2ae390cf05d766a900b53d2125b",
+                "url": "https://api.github.com/repos/components/jquery/zipball/8edc7785239bb8c2ad2b83302b856a1d61de60e7",
+                "reference": "8edc7785239bb8c2ad2b83302b856a1d61de60e7",
                 "shasum": ""
             },
             "type": "component",
@@ -53,100 +53,26 @@
                 "source": "https://github.com/jquery/jquery",
                 "wiki": "http://docs.jquery.com/"
             },
-            "time": "2020-05-05T13:21:02+00:00"
-        },
-        {
-            "name": "fortawesome/font-awesome",
-            "version": "5.15.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/FortAwesome/Font-Awesome.git",
-                "reference": "d79d85c3fad85ad1885e87ed558f4afd6fce8289"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/d79d85c3fad85ad1885e87ed558f4afd6fce8289",
-                "reference": "d79d85c3fad85ad1885e87ed558f4afd6fce8289",
-                "shasum": ""
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "CC-BY-4.0",
-                "OFL-1.1",
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Travis Chase",
-                    "homepage": "http://twitter.com/supercodepoet"
-                },
-                {
-                    "name": "Dave Gandy",
-                    "homepage": "http://twitter.com/davegandy"
-                },
-                {
-                    "name": "Rob Madole",
-                    "homepage": "http://twitter.com/robmadole"
-                },
-                {
-                    "name": "Jory Raphael",
-                    "homepage": "http://twitter.com/sensibleworld"
-                },
-                {
-                    "name": "Geremia Taglialatela",
-                    "homepage": "http://twitter.com/gtagliala"
-                },
-                {
-                    "name": "Brian Talbot",
-                    "homepage": "http://twitter.com/talbs"
-                },
-                {
-                    "name": "Mike Wilkerson",
-                    "homepage": "http://twitter.com/mw77"
-                }
-            ],
-            "description": "The iconic font, CSS, and SVG framework",
-            "homepage": "https://fontawesome.com",
-            "keywords": [
-                "FontAwesome",
-                "awesome",
-                "bootstrap",
-                "font",
-                "icon",
-                "svg"
-            ],
-            "support": {
-                "docs": "http://fontawesome.com/how-to-use",
-                "email": "hello@fontawesome.com",
-                "issues": "https://github.com/FortAwesome/Font-Awesome/issues",
-                "source": "https://github.com/FortAwesome/Font-Awesome"
-            },
-            "time": "2021-03-16T18:57:33+00:00"
+            "time": "2023-09-22T01:43:46+00:00"
         },
         {
             "name": "twbs/bootstrap",
-            "version": "v4.6.0",
+            "version": "v5.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "6ffb0b48e455430f8a5359ed689ad64c1143fac2"
+                "reference": "6e1f75f420f68e1d52733b8e407fc7c3766c9dba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/6ffb0b48e455430f8a5359ed689ad64c1143fac2",
-                "reference": "6ffb0b48e455430f8a5359ed689ad64c1143fac2",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/6e1f75f420f68e1d52733b8e407fc7c3766c9dba",
+                "reference": "6e1f75f420f68e1d52733b8e407fc7c3766c9dba",
                 "shasum": ""
             },
             "replace": {
                 "twitter/bootstrap": "self.version"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.3.x-dev"
-                }
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -175,15 +101,9 @@
             ],
             "support": {
                 "issues": "https://github.com/twbs/bootstrap/issues",
-                "source": "https://github.com/twbs/bootstrap/tree/v4.6.0"
+                "source": "https://github.com/twbs/bootstrap/tree/v5.3.3"
             },
-            "funding": [
-                {
-                    "url": "https://opencollective.com/bootstrap",
-                    "type": "open_collective"
-                }
-            ],
-            "time": "2021-01-19T16:16:38+00:00"
+            "time": "2024-02-20T15:14:29+00:00"
         }
     ],
     "packages-dev": [],
@@ -194,5 +114,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.3.0"
 }
